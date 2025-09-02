@@ -479,7 +479,7 @@ def main():
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH)  # Double buffering, RGB color, depth test
     glutInitWindowSize(1000, 800)
     glutInitWindowPosition(0, 0) 
-    wind = glutCreateWindow(b"Fardin  Saurov - 22301092 - Assignment 3") 
+    wind = glutCreateWindow(b"Bullet Frenzy ") 
     glEnable(GL_DEPTH_TEST)
     glClearColor(0.0, 0.0, 0.0, 1.0)  
 
@@ -493,4 +493,5 @@ def main():
     glutMainLoop() 
 
 if __name__ == "__main__":
+
     main()
